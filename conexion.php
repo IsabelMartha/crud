@@ -11,5 +11,5 @@ $conexion = new mysqli($servidor, $usuario, $contrasena, $bd);
 
 if ($conexion->connect_error) {
 
-    die('Hubo un fallo en la conexión ' . $conexion->connect_error);
+    die('Huboo un fallo en la conexión ' . $conexion->connect_error);
 };
